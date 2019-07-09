@@ -1,0 +1,6 @@
+<h3>These are ALL of the dinos that we can GET</h3>
+<ul>
+    <% dinosaurs.forEach(function(dinosaur, i){ %>
+        <li><a href="/dinosaurs/<%= dinosaur.id %>"> <%=dinosaur.name%></a></li>
+    <% }); %> 
+</ul>
